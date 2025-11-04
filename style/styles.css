@@ -1,4 +1,39 @@
-header {
-    font-size: 30px;
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097A7;
+    --gris: #757575;
+    --gris-claro: #DFE9f3;
+}
+
+.boton {
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .3rem;
+    width: 90%;
     text-align: center;
+    border: none;
+}
+
+
+
+.navegacion-principal a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+    color: var(--blanco);
+    background: var(--secundario);
+    transition: all .3s;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--primario);
 }
