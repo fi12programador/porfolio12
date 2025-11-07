@@ -20,6 +20,7 @@ html {
 .contenedor {
     max-width: 120rem;
     margin: 0 auto;
+    background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100% );
 }
 
 body {
