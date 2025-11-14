@@ -1,0 +1,38 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097A7;
+    --gris: #757575;
+    --gris-claro: #DFE9f3;
+}
+
+.navegacion-principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-color-nav {
+    background-color: var(--secundario);
+    text-align: center;
+}
+
+.navegacion-principal a {
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+    color: var(--blanco);
+    transition: all .3s;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--primario);
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100% );
+}

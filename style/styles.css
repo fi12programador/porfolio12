@@ -12,6 +12,12 @@ html {
     
 }
 
+body {
+    font-size: 16px;
+    /* background: linear-gradient(12deg,#00e9ff 30%, #00ff00 70%); */
+}
+
+
 .sombra {
     box-shadow: 0px 5px 15px 0px rgba(112,112,122,0.48);
     border-radius: 1rem;
@@ -25,10 +31,6 @@ html {
     background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100% );
 }
 
-body {
-    font-size: 16px;
-    background: linear-gradient(12deg,#00e9ff 30%, #00ff00 70%);
-}
 
 h1 {
     text-align: center;
@@ -54,19 +56,3 @@ h1 span {
     border: none;
 }
 
-
-
-.navegacion-principal a {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    font-size: 2rem;
-    padding: 1rem;
-    color: var(--blanco);
-    background: var(--secundario);
-    transition: all .3s;
-}
-
-.navegacion-principal a:hover {
-    background-color: var(--primario);
-}

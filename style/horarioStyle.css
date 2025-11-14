@@ -1,0 +1,194 @@
+:root {
+    --asig-python:                #f4a261;
+    --asig-python-hover:          #f5b273;
+
+    --asig-servicios-en-red:      #e9c46a;
+    --asig-servicios-en-red-hover:#f0d17a;
+
+    --asig-so-en-red:             #90be6d;
+    --asig-so-en-red-hover:       #a0cf83;
+
+    --asig-sostenibilidad:        #43aa8b;
+    --asig-sostenibilidad-hover:  #4dbca0;
+
+    --asig-seguridad-informatica: #577590;
+    --asig-seguridad-informatica-hover: #6a83a7;
+
+    --asig-itinerario-emple:      #b56576;
+    --asig-itinerario-emple-hover:#c27b8b;
+
+    --asig-web:                    #6d597a;
+    --asig-web-hover:              #7a6990;
+
+    --asig-descanso:               #a8dadc;
+    --asig-descanso-hover:         #b6e2e4;
+
+  /* colores generales. */
+    --bg:        #f3f4f6;
+    --card:      #0b1220;
+    --text:      #2a2b2cde;
+    --muted:     #9fb0c8;
+    --free-slot: #213547b0;
+    --border:    #243445;
+
+  --btn-bg:      #1f1f1f;
+  --btn-hover:   #2a2a2a;
+  --btn-text:    #e0e0e0;
+  --input-bg:    #1f1f1f;
+  --input-border:#333333;
+  --input-text:  #e0e0e0;
+  --input-placeholder: #9e9e9e;
+}
+
+html {
+    font-size: 62.5%;
+    
+}
+
+
+body {
+        font-size: 16px;
+    background: var(--bg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.vacio {
+    background-color: var(--free-slot);
+}
+
+.days {
+    background-color: rgb(82, 158, 246);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.tituloHorario {
+    text-align: center;
+    font-weight: 800;
+}
+
+tr {
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid var(--border);
+    padding: .5rem;
+}
+
+.python {
+    background-color: var(--asig-python);
+    transition: .3s all;
+    cursor: pointer;
+}
+
+.python:hover {
+    background-color: var(--asig-python-hover);
+}
+
+.ssn {
+    background-color: var(--asig-so-en-red);
+    transition: .3s all;
+    cursor: pointer;
+}
+
+.ssn:hover {
+    background-color: var(--asig-so-en-red-hover);
+}
+
+.src {
+    background-color: var(--asig-servicios-en-red);
+    transition: .3s all;
+    cursor: pointer;
+}
+
+.src:hover {
+    background-color: var(--asig-servicios-en-red-hover);
+}
+
+.sgf {
+    background-color: var(--asig-seguridad-informatica);
+    transition: .3s all;
+    cursor: pointer;
+}
+
+.sgf:hover {
+    background-color: var(--asig-seguridad-informatica-hover);
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.itk {
+    background-color: var(--asig-itinerario-emple);
+    transition: .3s all;
+    cursor: pointer;
+}
+
+.itk:hover {
+    background-color: var(--asig-itinerario-emple-hover);
+}
+
+.apw {
+    background-color: var(--asig-web);
+    transition: .3s all;
+    cursor: pointer;
+}
+
+.apw {
+    background-color: var(--asig-web-hover);
+}
+
+.soj {
+    background-color: var(--asig-sostenibilidad);
+    transition: .3s all;
+    cursor: pointer;
+}
+
+.soj {
+    background-color: var(--asig-sostenibilidad-hover);
+}
+
+.descanso {
+    background-color: var(--asig-descanso);
+    transition: .3s all;
+    cursor: pointer;
+}
+
+.descanso:hover {
+    background-color: var(--asig-descanso-hover);
+}
+
+.boton {
+    padding: .3rem 1rem;
+    border-radius: .4rem;
+    background: var(--btn-bg);
+    color: white;
+    text-decoration: none;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: .6rem;
+    transition: all .3s;
+    color: var(--btn-text);
+    margin-top: 2rem;
+}
+
+.flecha-boton {
+    width: 1rem;
+    font-weight: bold;
+    color: var(--btn-text);
+}
+
+.boton:hover {
+    background-color: var(--btn-hover);
+}
+
+.descripcion-horario {
+    text-align: center;
+    color: var(--text);
+}

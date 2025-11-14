@@ -6,33 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de usuario</title>
     <link rel="stylesheet" href="./style/formsStyle.css">
+    <link rel="stylesheet" href="./style/headerNav.css">
 </head>
 
 <body>
-    <fieldset>
-        <legend>Registro de usuario</legend>
-        <label>Apellido</label>
-        <input type="text" placeholder="Indique sus apellidos: ">
-        <label>Nombre</label>
-        <input type="text" placeholder="Indique sus nombre: ">
-        <label>Género</label>
-        <input type="radio" name="" id="">
-        <label for="">Masculino</label>
-        <input type="radio">
-        <label for="">Femenino</label>
-        <label>Ocupación</label>
-        <select>
-            <option value="">Profesor</option>
-            <option value="">Estudiante</option>
-            <option value="">Ingeniero</option>
-            <option value="">Jubilados</option>
-            <option value="">Otro</option>
-        </select>
-        <label for="">Comentarios</label>
-        <textarea name="" id=""></textarea>
-        <input type="submit" value="Enviar">
-        <input type="button" value="Borrar">
-    </fieldset>
+    <header>
+        <h1>Futuro informatico <span>12</span></h1>
+    </header>
+    <div class="bg-color-nav">
+        <nav class="navegacion-principal contenedor">
+            <a href="/index.html">Inicio</a>
+            <a href="#">Sobre mi</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contacto</a>
+            <a href="/horario.html">Horario</a>
+            <a href="/form.html">formulario</a>
+            <a href="/formCine.html">formulario cine</a>
+        </nav>
+    </div>
+    <main class="container">
+        <fieldset>
+            <legend>Registro de usuario</legend>
+            <label>Apellido</label>
+            <input type="text" placeholder="Indique sus apellidos: ">
+            <br>
+            <label>Nombre</label>
+            <input type="text" placeholder="Indique sus nombre: ">
+            <br>
+            <label>Género</label>
+            <input type="radio" name="" id="">
+            <label for="">Masculino</label>
+            <input type="radio">
+            <label for="">Femenino</label>
+            <br>
+            <label>Ocupación</label>
+            <select>
+                <option value="">Profesor</option>
+                <option value="">Estudiante</option>
+                <option value="">Ingeniero</option>
+                <option value="">Jubilados</option>
+                <option value="">Otro</option>
+            </select>
+            <br>
+            <label for="">Comentarios</label>
+            <textarea name="" id=""></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="button" value="Borrar">
+        </fieldset>
+    </main>
+
 </body>
 
 </html>
